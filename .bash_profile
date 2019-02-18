@@ -1,5 +1,5 @@
 if [ "$PS1" ]; then
-	PS1="[\[\e[32;40m\]\u@mac: \W]\\$ \e[m"
+	PS1='[\e[1;32m\u\e[m\e[1;33m@\e[m\e[1;35m\h\e[m \e[4m\w\e[m] \e[1;36m$PS1_INT\e[m\n\$'
 fi
 
 alias ls='ls -G'
